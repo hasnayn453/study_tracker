@@ -1,0 +1,4 @@
+# macOS-only additions for accurate idle detection + pystray backend
+pyobjc-framework-Quartz==10.2
+pyobjc-framework-Cocoa==10.2
+pyobjc==10.2

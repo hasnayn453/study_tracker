@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Study Tracker runtime data (created when the app runs)
+study_tracker/data/
+study_tracker/reports/
+study_tracker/config.json
+study_tracker/*.db
+study_tracker/*.db.enc
+study_tracker/*.log
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# PyInstaller builds
+build/
+dist/
+*.spec.build
+*.exe
+*.app
+
+# IDE
+.vscode/
+.idea/

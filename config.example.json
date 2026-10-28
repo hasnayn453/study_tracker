@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "encryption": {
+    "key": null
+  },
+  "storage": {
+    "db_path": "data/study_tracker.db",
+    "screenshot_dir": "data/screenshots",
+    "reports_dir": "reports"
+  },
+  "screen_monitoring": {
+    "poll_interval": 5,
+    "screenshot_interval": 300,
+    "screenshot_enabled": true,
+    "productive_apps": [],
+    "productive_keywords": ["code", "dev", "study", "learn", "document", "pdf"]
+  },
+  "idle_detection": {
+    "threshold_seconds": 300
+  },
+  "webcam": {
+    "enabled": true,
+    "camera_index": 0,
+    "check_interval": 5,
+    "face_detector": "haar",
+    "absence_threshold_seconds": 180,
+    "alert_cooldown_seconds": 300
+  },
+  "alerts": {
+    "enabled": true,
+    "cooldown_seconds": 60,
+    "telegram": {
+      "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+      "chat_id": "YOUR_TELEGRAM_CHAT_ID"
+    },
+    "discord": {
+      "webhook_url": "https://discord.com/api/webhooks/.../..."
+    },
+    "email": {
+      "smtp_server": "smtp.gmail.com",
+      "smtp_port": 587,
+      "username": "you@example.com",
+      "password": "YOUR_APP_PASSWORD",
+      "to_address": "parent@example.com"
+    }
+  },
+  "reporting": {
+    "daily_report_hour": 23,
+    "daily_report_minute": 0,
+    "email_report": false,
+    "s3_bucket": "",
+    "s3_region": "us-east-1"
+  },
+  "stealth": {
+    "tray_only": true,
+    "show_console": false
+  }
+}

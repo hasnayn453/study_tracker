@@ -1,0 +1,19 @@
+# Core (required on Windows & macOS)
+pygetwindow==0.0.9
+mss==9.0.1
+opencv-python-headless==4.10.0.84
+Pillow==10.4.0
+pystray==0.19.4
+cryptography==42.0.8
+requests==2.32.3
+
+# Optional - macOS only (accurate idle detection via Quartz).
+# Install on macOS with: pip install -r requirements-mac.txt
+# pyobjc-framework-Quartz==10.2
+
+# Optional - more robust face detection (MediaPipe).
+# mediapipe==0.10.14
+
+# Optional - process-name lookup & S3 report upload.
+# psutil==5.9.8
+# boto3==1.34.0
